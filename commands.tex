@@ -1,0 +1,40 @@
+% kommandoer til ordbogen
+\newcommand{\trmark}{[tr]}
+\newcommand{\itrmark}{[itr]}
+\newcommand{\OPSLAG}[1]{\foreignlanguage{esperanto}{\textbf{#1}\markboth{#1}{#1}~}} %\hspace{0.15em}}
+\newcommand{\DA}[1]{\foreignlanguage{danish}{\textit{(#1)}}}
+\newcommand{\fixme}[1]{\textbf{\textcolor{red}{[#1]}}}
+\newcommand{\FED}[1]{\textbf{#1}}
+\newcommand{\T}{\texttildelow}
+\newcommand{\BOGSTAV}[1]{
+	\vspace{0.6cm}
+	\noindent
+	{\fontsize{20}{30}\selectfont #1}
+	\nopagebreak[4]
+	\vspace{0.3cm}
+	\nopagebreak[4]
+} %\markboth{}{}
+\newcommand{\SE}[1]{\foreignlanguage{danish}{$\to$~\textsc{#1}}}
+%\newcommand{\SE}[1]{\foreignlanguage{danish}{\emph{(se:~\textsc{#1})}}}
+\newcommand{\SEOSSE}[1]{\foreignlanguage{danish}{$\leadsto$~\textsc{#1}}}
+%\newcommand{\SEOSSE}[1]{\foreignlanguage{danish}{\emph{(se også:~\textsc{#1})}}}
+\newcommand{\Cx}{\^c}
+\newcommand{\CX}{\^C}
+\newcommand{\Gx}{\^g}
+\newcommand{\GX}{\^G}
+\newcommand{\Hx}{\^h}
+\newcommand{\HX}{\^H}
+\newcommand{\Sx}{\^s}
+\newcommand{\SX}{\^S}
+\newcommand{\Jx}{\^{\j}}
+\newcommand{\JX}{\^{\J}}
+\newcommand{\Ux}{\u{u}}
+\newcommand{\UX}{\u{U}}
+\newcommand{\textstylevesperantoopslagsord}[1]{\OPSLAG{#1}}
+\newcommand{\textstylevesperanto}[1]{\foreignlanguage{esperanto}{\textit{#1}}}
+\newcommand{\textstylevkategori}[1]{[#1]}
+\newcommand{\textstyleStrongEmphasis}[1]{#1}
+\newcommand{\textstyleEmphasis}[1]{\textit{#1}}
+\newcommand\textsubscript[1]{\ensuremath{{}_{\text{#1}}}}
+\newcommand\textstylePageNumber[1]{#1}
+\newcommand{\eo}[1]{\textbf{#1}}
