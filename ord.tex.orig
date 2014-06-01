@@ -81928,9 +81928,9 @@ Vientiane (hovedstaden i Laos)}
 \textstylevesperantoopslagsord{vjetnam\-o}\ \ en vietnameser}
 
 {\selectlanguage{danish}
-\textstylevesperantoopslagsord{Vjetnam}\textstylevesperantoopslagsord{\-i\-o,
-Vjetnam}\textstylevesperantoopslagsord{ujo}\ \ \textstylevkategori{geo}
-Vietnam}
+\textstylevesperantoopslagsord{Vjetnam}\textstylevesperantoopslagsord{\-i\-o}\textstylevesperantoopslagsord{
+\ \ \ \ \ \ }\textstylevkategori{geo} Vietnam; (=
+\textstylevesperanto{Vjetnamujo})}
 
 {\selectlanguage{danish}
 \textstylevesperantoopslagsord{Vladivostok\-o}\ \ \textstylevkategori{geo}
@@ -82212,7 +82212,7 @@ r{\ae}v}
 
 {\selectlanguage{danish}
 \textstylevesperantoopslagsord{vultu\-a}\ \ \textstylevkategori{med} (om
-et ansigt: r{\o}d og oppustet pga. blodansamling)}
+et ansigt: r{\o}d og oppustet pga blodansamling)}
 
 {\selectlanguage{danish}
 \textstylevesperantoopslagsord{vultur\-o}\ \ \textstylevkategori{zo}
@@ -82226,7 +82226,7 @@ grib}
 \textstylevesperantoopslagsord{vund\-i}\ \ at s{\aa}re, at tilf{\o}je en
 kv{\ae}stelse}
 
-\subsection{Z}
+\subsection[Z]{Z}
 {\selectlanguage{danish}
 \textstylevesperantoopslagsord{Z}\ \ \foreignlanguage{danish}{1.}
 \textstylevkategori{fk} Zamenhof, (jf \textstylevesperanto{Zam}),
