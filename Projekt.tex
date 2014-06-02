@@ -5,7 +5,7 @@
 \setlength{\textheight}{7.0in} % bund-margin
 \setlength{\footskip}{0.3in}
 \setlength{\headsep}{0.2in}
-\setlength{\parskip}{2ex plus 0.2ex minus 0.2ex}
+\setlength{\parskip}{1.5ex plus 0.2ex minus 0.2ex}
 \setlength{\textwidth}{4.60in}
 \setlength{\oddsidemargin}{-0.40in}
 \setlength{\evensidemargin}{-0.40in}
@@ -24,7 +24,7 @@
 %\addtolength{\headsep}{-0.25in}
 
 \usepackage[latin1]{inputenc}
-\usepackage[esperanto,danish,english]{babel}
+\usepackage[esperanto,danish]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{ae}
 \usepackage{amsmath,amssymb,amsthm}
@@ -41,10 +41,14 @@
 \usepackage{url}
 \usepackage{titlesec} % til ændring af section-styles
 \usepackage{enumitem} % til forklaringsliste
+\usepackage{alltt} % til Alinkas indtastning
 
 \titleformat{\section}{\normalfont\LARGE\bfseries}{\thesection}{1em}{}
 \titleformat{\subsection}{\normalfont\Large\bfseries}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesubsubsection}{1em}{} 
+
+\setlength{\parindent}{0cm}
+\titlespacing{\section}{0pt}{2pt}{-10pt}
 
 %\usepackage{wallpaper}
 %\CenterWallPaper{0.4}{vandmaerke.png} 
