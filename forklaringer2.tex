@@ -1,20 +1,32 @@
 \selectlanguage{danish}
 
-\begin{description}[style=multiline,nosep,itemsep=3ex,itemindent=0.5cm]
-	\item[\textbar]
-	viser ordelementerne i sammensatte ord: \textbf{bon{$\vert$}ven{$\vert$}ig{$\vert$}i} byde velkommen
+\SetLabelAlign{parright}{\parbox[t]{\labelwidth}{\raggedleft#1}}
+
+\begin{description}[style=multiline,nosep,itemsep=4ex,leftmargin=1.5cm,align=parright,labelsep=0.3cm]
+	\item[$\bullet$]
+	viser ordelementerne i sammensatte ord:
+	
+	\smallskip
+
+	\hspace*{0.7cm}\begin{tabular*}{0.7\textwidth}{@{}ll@{}}
+		\eo{bon\DEL ven\DEL ig\DEL i} & byde velkommen
+	\end{tabular*}
 
 	\item[\T]
 	 viser, at opslagsordet gentages:
 
-	\begin{itemize}[leftmargin=4em, align=left]
-		\item[uforandret] \eo{dek$\vert$kelk{$\vert$}e} \eo{post \T da sekundoj}
+	\begin{itemize}[leftmargin=4cm,labelwidth=3cm, align=left, font=\itshape, itemsep=2ex]
+		\item[uforandret] \eo{dek\DEL e}\\
+							\rule{0pt}{1.5ex}\eo{post \T~da sekundoj}
 
-		\item[med tilf{\o}jelse af endelse] \eo{danc{$\vert$}ad{$\vert$}o}\ \eo{lerni\T{}n} (dancadon)
+		\item[med tilf{\o}jelse af endelse] \eo{danc\DEL ad\DEL o}\\
+											\rule{0pt}{1.5ex}\eo{lerni \T{}n} (dancadon)
 		
-		\item[med udskiftning af endelse] \eo{danc{$\vert$}i\ \ }\ \ \eo{La kuloj \T{}as} (dancas)
+		\item[med udskiftning af endelse] \eo{danc\DEL i}\\
+												\rule{0pt}{1.5ex}\eo{la kuloj \T{}as} (dancas)
 		
-		\item[i et sammensat ord] \eo{baskul{$\vert$}o}\ \ \eo{\T{}ponto} (baskulponto/baskuloponto)
+		\item[i et sammensat ord] \eo{baskul\DEL o}\\
+									\rule{0pt}{1.5ex}\eo{\T{}ponto} (baskulponto/baskuloponto)
 
 	\end{itemize}
 
@@ -45,16 +57,22 @@
 	lettere at huske. Sammenlign fx ordene for g{\aa}sefod og for
 	hundestejle:
 
+	\smallskip
 
-	\begin{itemize}[leftmargin=4em, align=left]
-		\item kenopodi{$\vert$}o - anser{$\vert$}pied{$\vert$}o   g{\aa}sefod
-		\item gasteroste{$\vert$}o - dorn{$\vert$}fi\^s{$\vert$}o hundestejle
-		\item Visse dgl-navne m{\aa} fx g{\o}res til genstand for s{\ae}rlig omhu,
-		idet de tilsvarende nationale navne d{\ae}kker forskellige arter i
-		forskellige sprog.
-	\end{itemize}
+	\hspace*{0.7cm}\begin{tabular*}{0.7\textwidth}{@{}lll@{}}
+	\eo{kenopodi\DEL o} & \eo{anser\DEL pied\DEL o} & g{\aa}sefod\\
+	\rule{0pt}{3ex}\eo{gasteroste\DEL o}& \eo{dorn\DEL fi\^s\DEL o}& hundestejle \\
+	\end{tabular*}
+	
+	\medskip
+	
+	Visse dgl-navne m{\aa} fx g{\o}res til genstand for s{\ae}rlig omhu,
+	idet de tilsvarende nationale navne d{\ae}kker forskellige arter i
+	forskellige sprog.
 
 \end{description}
+
+\newpage
 
 \section{R{\ae}kkef{\o}lge}
 
@@ -79,13 +97,18 @@ eksempler.
 
 
 \section{Transitivitet}
-Verber der \textit{kan} -- men for manges vedkommende ikke n{\o}dvendigvis \textit{skal} -- have genstandsled, kaldes transitive (tr). Det g{\ae}lder fx for \eo{man\^gi}:
+Verber der \textit{kan} -- men for manges vedkommende ikke n{\o}dvendigvis \textit{skal} -- have genstandsled, kaldes transitive \emph{(tr)}. Det g{\ae}lder fx for \eo{man\^gi}:
 
-\begin{description}
-	\item[Mi man\^gis bananon] (med genstandsled) Jeg spiste en banan.
-	\item[Li man\^gis kiam ni venis] (uden genstandsled) Han spiste da vi kom.
-\end{description}
+\hspace*{0.7cm}\begin{tabular*}{0.7\textwidth}{@{}ll@{}}
+\eo{Mi man\^gis bananon} (med genstandsled) & Jeg spiste en banan \\
+\rule{0pt}{3ex}\eo{Li man\^gis kiam ni venis} (uden genstandsled) & Han spiste da vi kom. \\
+\end{tabular*}
 
-Verber der ikke kan have genstandsled, kaldes intransitive (itr).
-Ogs{\aa} verber, der kun kan have genstandsled i meget begr{\ae}nset omfang i s{\ae}rlige tilf{\ae}lde, er intransitive. Et s{\aa}dant s{\ae}rligt tilf{\ae}lde kan fx v{\ae}re at genstandsleddet og det p{\aa}g{\ae}ldende verbum best{\aa}r af samme ord i forskellige former. S{\aa}ledes kan dormi og vivi normalt ikke have genstandsled, men man kan godt sige: Ili vivis feli\^can vivon. De levede et lykkeligt liv. 
-Verberne markeres i ordbogen kun med tr eller itr, hvor dette sk{\o}nnes at v{\ae}re til praktisk nytte. For det f{\o}rste er alle verber med \eo{-ig-} og \eo{-i\^g-} henholdsvis transitive og intransitive, og for det andet ses den praktiske sprogbrug ofte af de anf{\o}rte eksempler.
+Verber der ikke kan have genstandsled, kaldes intransitive \emph{(itr)}.
+Ogs{\aa} verber, der kun kan have genstandsled i meget begr{\ae}nset omfang i s{\ae}rlige tilf{\ae}lde, er intransitive. Et
+s{\aa}dant s{\ae}rligt tilf{\ae}lde kan fx v{\ae}re at genstandsleddet og det p{\aa}g{\ae}ldende verbum best{\aa}r af
+samme ord i forskellige former. S{\aa}ledes kan \eo{dormi} og \eo{vivi} normalt ikke have genstandsled, men man kan godt sige:
+\eo{Ili vivis feli\^can vivon}. De levede et lykkeligt liv. 
+Verberne markeres i ordbogen kun med \emph{tr} eller \emph{itr}, hvor dette sk{\o}nnes at v{\ae}re til praktisk nytte.
+For det f{\o}rste er alle verber med \eo{-ig-} og \eo{-i\^g-} henholdsvis transitive og intransitive, og
+for det andet ses den praktiske sprogbrug ofte af de anf{\o}rte eksempler.

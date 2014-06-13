@@ -1,8 +1,18 @@
+\pagestyle{plain}
+
 \selectlanguage{danish}
 
 \section{Forklaringer}
 
-\begin{description}[style=multiline,nosep,itemsep=0.2ex,itemindent=0.5cm]
+\bigskip
+\bigskip
+
+\setlength{\columnsep}{1.8pc} 
+\begin{multicols}{2}
+
+\SetLabelAlign{parright}{\parbox[t]{\labelwidth}{\raggedleft#1}}
+
+\begin{description}[style=multiline,nosep,itemsep=0.6ex,leftmargin=1.5cm,align=parright,labelsep=0.3cm]
 \item[agr]	landbrug
 \item[an]	anatomi
 \item[ark]	arkitektur, bygninger
@@ -81,3 +91,7 @@
 \item[zo]	zoologi
 \item[{\aa}rh.]	{\aa}rhundrede
 \end{description}
+
+\end{multicols}
+
+\newpage
