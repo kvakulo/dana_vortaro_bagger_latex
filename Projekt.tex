@@ -81,9 +81,15 @@
 \input{titelblad.tex}
 \input{forklaringer.tex}
 \input{forklaringer2.tex}
+
 \addtolength{\textheight}{0.4in} % bund-margin
 \addtolength{\headsep}{-0.1in}
 \newpage
+
+\pagestyle{empty}
+\mbox{}
+\newpage
+
 \begin{flushleft}
 \pagestyle{fancy}
 \input{ord_layout.tex}
@@ -92,6 +98,7 @@
 \begin{multicols}{2}
 \input{ord.tex}
 \end{multicols}
+\setlength{\textheight}{7.0in}
 \newpage
 \pagestyle{plain}
 \end{flushleft}
