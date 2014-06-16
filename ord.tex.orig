@@ -234,7 +234,7 @@ tobak, sex), leve afholdende (fx \textstylevesperanto{Li \~{}as \^ciun
 vendredon.})}
 
 {\selectlanguage{danish}
-\textstylevesperantoopslagsord{abstrak\-ta}\ \ abstrakt}
+\textstylevesperantoopslagsord{abstrakt\-a}\ \ abstrakt}
 
 {\selectlanguage{danish}
 \textstylevesperantoopslagsord{abstrakt\-a\^\j\-o}\ \ abstraktion; noget
@@ -4239,6 +4239,10 @@ arbitrage (valutahandel og kursspekulation)}
 {\selectlanguage{danish}
 \textstylevesperantoopslagsord{arbitr\-e}\ \ vilk{\aa}rligt, efter
 forgodtbefindende}
+
+{\selectlanguage{danish}
+\textstylevesperantoopslagsord{arbiturient\-a
+ekzamen\-o\ \ }studentereksamen}
 
 {\selectlanguage{danish}
 \textstylevesperantoopslagsord{arb\-o}\ \ tr{\ae};
@@ -81928,7 +81932,7 @@ Vientiane (hovedstaden i Laos)}
 \textstylevesperantoopslagsord{vjetnam\-o}\ \ en vietnameser}
 
 {\selectlanguage{danish}
-\textstylevesperantoopslagsord{Vjetnam}\textstylevesperantoopslagsord{\-i\-o}\textstylevesperantoopslagsord{
+\textstylevesperantoopslagsord{Vjetnam}\textstylevesperantoopslagsord{\-i\-o
 \ \ \ \ \ \ }\textstylevkategori{geo} Vietnam; (=
 \textstylevesperanto{Vjetnamujo})}
 
@@ -82226,7 +82230,7 @@ grib}
 \textstylevesperantoopslagsord{vund\-i}\ \ at s{\aa}re, at tilf{\o}je en
 kv{\ae}stelse}
 
-\subsection[Z]{Z}
+\subsection{Z}
 {\selectlanguage{danish}
 \textstylevesperantoopslagsord{Z}\ \ \foreignlanguage{danish}{1.}
 \textstylevkategori{fk} Zamenhof, (jf \textstylevesperanto{Zam}),
